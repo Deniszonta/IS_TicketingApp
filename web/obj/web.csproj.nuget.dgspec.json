@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/denis/Documents/Faks/IS/TempusNo15/web/web.csproj": {}
+    "C:\\Delo\\Sola\\FRI\\2_letnik\\Informacijski_sistemi\\projektna naloga\\IS_TicketingApp\\web\\web.csproj": {}
   },
   "projects": {
-    "/Users/denis/Documents/Faks/IS/TempusNo15/web/web.csproj": {
+    "C:\\Delo\\Sola\\FRI\\2_letnik\\Informacijski_sistemi\\projektna naloga\\IS_TicketingApp\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/denis/Documents/Faks/IS/TempusNo15/web/web.csproj",
+        "projectUniqueName": "C:\\Delo\\Sola\\FRI\\2_letnik\\Informacijski_sistemi\\projektna naloga\\IS_TicketingApp\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "/Users/denis/Documents/Faks/IS/TempusNo15/web/web.csproj",
-        "packagesPath": "/Users/denis/.nuget/packages/",
-        "outputPath": "/Users/denis/Documents/Faks/IS/TempusNo15/web/obj/",
+        "projectPath": "C:\\Delo\\Sola\\FRI\\2_letnik\\Informacijski_sistemi\\projektna naloga\\IS_TicketingApp\\web\\web.csproj",
+        "packagesPath": "C:\\Users\\jakam\\.nuget\\packages\\",
+        "outputPath": "C:\\Delo\\Sola\\FRI\\2_letnik\\Informacijski_sistemi\\projektna naloga\\IS_TicketingApp\\web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/denis/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jakam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -82,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
