@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using web.Data;
 using web.Models;
+using web.Filters;
 
 namespace web.Controllers_Api
 {
     [Route("api/users")]
     [ApiController]
+    [ApiKeyAuth]
     public class UserApiController : ControllerBase
     {
         private readonly TempusContext _context;
